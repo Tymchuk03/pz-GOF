@@ -1,0 +1,23 @@
+{
+  "name": "pz-pis",
+  "version": "1.0.0",
+  "description": "Practical lesson pz-GOF: implementation of GoF design patterns in TypeScript",
+  "main": "dist/examples/run-all.js",
+  "scripts": {
+    "start": "ts-node src/examples/run-all.ts",
+    "build": "tsc",
+    "dev": "ts-node src/examples/run-all.ts"
+  },
+  "keywords": [
+    "typescript",
+    "gof",
+    "design-patterns"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
